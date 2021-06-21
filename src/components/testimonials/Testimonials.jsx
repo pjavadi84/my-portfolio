@@ -1,10 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import "./testimonials.scss";
 
-class Testimonials extends Component {
-  render() {
-    return <div className="testimonials"></div>;
-  }
+export default function Testimonials() {
+  return <div className="testimonials"></div>;
 }
-
-export default Testimonials;
