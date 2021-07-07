@@ -1,6 +1,6 @@
 import React from "react";
-import "./works.scss";
+import "./works.css";
 
 export default function Works() {
-  return <div className="works"></div>;
+  return <div className="works">Works</div>;
 }
