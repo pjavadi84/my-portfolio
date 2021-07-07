@@ -2,5 +2,9 @@ import React from "react";
 import "./portfolio.scss";
 
 export default function portfolio() {
-  return <div className="portfolio">Porfolio</div>;
+  return (
+    <div className="portfolio" id="portfolio">
+      Porfolio
+    </div>
+  );
 }
